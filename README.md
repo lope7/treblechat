@@ -1,5 +1,5 @@
 [![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
+[![LinkedIn][linkedin-shield]][https://www.linkedin.com/in/lope-mart%C3%ADnez-alcal%C3%A1-24aa45111/]
 
 
 
