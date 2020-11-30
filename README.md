@@ -78,7 +78,7 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+## About The Projectt
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
