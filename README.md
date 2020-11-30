@@ -28,7 +28,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/screenshot2.png" alt="Logo" width="600" height="300">
+    <img src="images/screenshot2.png" alt="Logo" width="600" height="400">
   </a>
 
   <h3 align="center">Best-README-Template</h3>
