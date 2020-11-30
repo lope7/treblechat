@@ -1,6 +1,6 @@
 <!-- PROJECT LOGO -->
 <br />
-<p align="center">
+<div align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
     <img src="images/screenshot2.png" alt="Logo" width="600" height="400">
   </a>
@@ -16,7 +16,7 @@
     ·
     <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
   </p>
-</p>
+</div>
 
 
 
