@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/favicon.png">
+    <title>#Treblechat.</title>
+    <link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/pages/login-register-lock.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/colors/default-dark.css" id="theme" rel="stylesheet">
+</head>
+
+<body class="card-no-border">
+    <section id="wrapper">
+        <div class="login-register" style="background-image:url(../assets/images/background/megamenubg.jpg);">
+            <div class="login-box card">
+                <div class="card-body">
+                    <form class="form-horizontal form-material" id="loginform" action="chat.html">
+                        <h2 class="box-title m-b-40 font-weight-bold  text-center strong text-dark">#TrebleChat.</h2>
+                        <h6 class="box-title m-b-40 text-center font-weight-bold strong text-info">Chat now with twitter
+                            users about topics you are interested in</h6>
+                        <div class="form-group ">
+                            <div class="col-xs-12 font-weight-bold">
+                                <p>Twitter account</p>
+                                <input class="form-control" type="text" required="" placeholder="@" name="name">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-xs-12 font-weight-bold">
+                                <p>Tendencies</p>
+                                <input class="form-control" type="text" required="" placeholder="#" name="room">
+                            </div>
+                        </div>
+
+
+                        <div class="form-group text-center">
+                            <div class="col-xs-12 p-b-20">
+                                <button class="btn btn-block btn-lg btn-info btn-rounded" type="submit">Go!</button>
+                            </div>
+
+
+                            <div class="footer-copyright text-center py-3">© 2020 developed by:
+                                <a href="https://github.com/lope7"> lope martinez</a>
+                            </div>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="../assets/plugins/jquery/jquery.min.js"></script>
+    <script src="../assets/plugins/bootstrap/js/popper.min.js"></script>
+    <script src="../assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $(".preloader").fadeOut();
+        });
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        });
+    </script>
+
+</body>
+
+</html>

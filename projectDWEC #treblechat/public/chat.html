@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>#TrebleChat</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- Page CSS -->
+    <link href="css/pages/chat-app-page.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/chat.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+
+    <link href="css/colors/default-dark.css" id="theme" rel="stylesheet">
+</head>
+
+<body class="fix-header single-column card-no-border fix-sidebar">
+
+    <div id="main-wrapper">
+        <div class="page-wrapper">
+
+            <div class="container-fluid">
+
+                <div class="row animated fadeIn">
+                    <div class="col-12">
+                        <div class="card m-b-0">
+
+                            <div class="chat-main-box">
+
+                                <div class="chat-left-aside">
+                                    <div class="open-panel"><i class="ti-angle-right"></i></div>
+                                    <div class="chat-left-inner">
+                                        <ul class="chatonline style-none" id="usersDiv"> </ul>
+                                    </div>
+                                </div>
+                                <div class="chat-right-aside">
+                                    <div class="chat-main-header">
+                                        <div class="p-20 b-b">
+                                            <h3 class="box-title text-center" id="divBienvenida">Welcome to Treble-chat!
+                                            </h3>
+                                        </div>
+                                    </div>
+
+                                    <div class="chat-rbox">
+                                        <ul class="chat-list p-20" id="divChatbox">
+
+                                        </ul>
+                                    </div>
+                                    <div class="card-body b-t">
+
+                                        <form id="sendForm">
+                                            <div class="row">
+                                                <div class="col-8">
+                                                    <input autocomplete="off" id="messageTxt" placeholder="Type here..."
+                                                        class="form-control b-0" autofocus>
+                                                </div>
+                                            </div>
+                                        </form>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <footer class="page-footer font-small blue">
+
+                <div class="footer-copyright text-center py-3">© 2020 Copyright Treble-Chat.
+                    <a href="https://github.com/lope7"> lope martinez</a>
+                </div>
+            </footer>
+
+        </div>
+
+    </div>
+
+    <script src="js/libs/jquery.min.js"></script>
+    <script src="socket.io/socket.io.js"></script>
+
+    <script src="js/socket-chat-jquery.js"></script>
+
+    <script src="js/socket-chat.js"></script>
+
+</body>
+
+</html>
