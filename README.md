@@ -66,6 +66,7 @@ A list of commonly used resources that I find helpful are listed in the acknowle
 
 * [Nodejs](https://nodejs.org/es/)
 * [Socket.io](https://socket.io/)
+* [Express](https://expressjs.com/)
 * [JQuery](https://jquery.com)
 * [Bootstrap](https://getbootstrap.com)
 
