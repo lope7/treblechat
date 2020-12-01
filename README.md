@@ -130,8 +130,6 @@ Get NodeJS.
   npm install npm@latest -g
   ```
 
-   ```
-
 <!-- CONTRIBUTING -->
 ## Contributing
 
