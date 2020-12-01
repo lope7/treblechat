@@ -64,11 +64,9 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li>
   </ol>
 </details>
 
@@ -109,7 +107,8 @@ To run the app locally just follow the next steps:
 
 * Download the files or clone the repo.
 
-* Install node modules in the main directory ```sh
+* Install node modules in the main directory 
+```sh
    npm install
    ```
 * Go to server directory
