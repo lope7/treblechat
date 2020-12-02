@@ -32,7 +32,7 @@
 
   </a>
 
-  <h3 align="center">#treblechat</h3>
+  <h3 align="center">#TrebleChat</h3>
 
   <p align="center">
     <br />
