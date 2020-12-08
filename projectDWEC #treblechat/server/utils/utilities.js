@@ -7,7 +7,6 @@ const createMessage = (name, message) => {
         message,
         date: new Date().getTime()
     };
-
 }
 
 module.exports = {
