@@ -73,7 +73,6 @@ function renderMessage(message, me) {
 
     }
 
-
     divChatbox.append(html);
 
 }
