@@ -46,7 +46,6 @@ io.on('connection', (client) => {
         client.broadcast.to(userDeleted.room).emit('createMessage', createMessage('User', `${userDeleted.name} left`));
         client.broadcast.to(userDeleted.room).emit('userList', users.getUserByRoom(userDeleted.room));
 
-
     });
 
 });
