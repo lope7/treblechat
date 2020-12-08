@@ -12,7 +12,7 @@ const port = process.env.PORT || 3000;
 
 app.use(express.static(publicPath));
 
-// IO = it is the communication with the server.
+// IO = it´s the communication with the server.
 module.exports.io = socketIO(server);
 require('./sockets/socket');
 
