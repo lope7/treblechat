@@ -32,7 +32,6 @@ socket.on('disconnect', function () {
     console.log('Connection missed');
 });
 
-
 // Listen to
 socket.on('createMessage', function (message) {
     renderMessage(message, false);
