@@ -4,6 +4,7 @@ class Users {
 
         this.users = [];
     }
+    
     /**
      * Method to add users to the chat
      * @param {*} id 
