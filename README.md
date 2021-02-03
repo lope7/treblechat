@@ -93,7 +93,6 @@ This application could serve as a prototype for a Twitter extension because it a
 * [Nodejs](https://nodejs.org/es/)
 * [Socket.io](https://socket.io/)
 * [Express](https://expressjs.com/)
-* [JQuery](https://jquery.com)
 * [Bootstrap](https://getbootstrap.com)
 
 
