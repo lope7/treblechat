@@ -7,9 +7,9 @@ class Users {
     
     /**
      * Method to add users to the chat
-     * @param {*} id 
-     * @param {*} name 
-     * @param {*} room 
+     * @param {number} id 
+     * @param {string} name 
+     * @param {string} room 
      */
     addUsers(id, name, room) {
 
